@@ -19,4 +19,10 @@ This strategy could be applied to almost anything, including future development 
 The testing of my code was entirely through hands-on navigation and engagement with the features to ensure that the relevant processes and actions were occurring.
 Additionally, the use of LogCat was immensely helpful as it allowed me to see the potential flaws within my logic and identify the exact problem occurring. 
 For example, when testing the incrementation/decrementation of the items, I found that modifying the second item would apply those changes to the first item.
-From here, I identified a discrepancy between the indices of the code and the databas,e allowing for a quick resolution. 
+From here, I identified a discrepancy between the indices of the code and the databas, allowing for a quick resolution. 
+
+# Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+I had to innovate to mitage an challenge at almost every stage of the development process. Since this was my first time using the Android Studio IDE and coding for an Android application, a majority of the challenges were resolved around a lack of experience. One example of an innovation was in the sending of the SMS notification. Rather than a generic notification stating that an item had low inventory, I wanted to specify the item. To accomplish this, I passed the item's name to the decrement method for the sole purpose of potentially passing it to the sendSMS method, resulting in a specific low inventory notification. 
+
+# In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+I think the specific component of my application that demonstrates my abilities is the inventory screen and the features of incrementing, decrementing, and removing an ite,m all occurring without any pop-up boxes or additional screens. 
